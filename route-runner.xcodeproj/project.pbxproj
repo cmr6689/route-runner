@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C366860256C6A4B002F8AFF /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8CE5F2256C4BDA00D13B24 /* Mapbox.framework */; };
+		7C366861256C6A4B002F8AFF /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8CE5F2256C4BDA00D13B24 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C366863256C6A4D002F8AFF /* MapboxAccounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8CE5F7256C4DCA00D13B24 /* MapboxAccounts.framework */; };
+		7C366864256C6A4D002F8AFF /* MapboxAccounts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8CE5F7256C4DCA00D13B24 /* MapboxAccounts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C366865256C6A4E002F8AFF /* MapboxCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8CE5F8256C4DCA00D13B24 /* MapboxCommon.framework */; };
+		7C366866256C6A4E002F8AFF /* MapboxCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8CE5F8256C4DCA00D13B24 /* MapboxCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C366867256C6A4F002F8AFF /* MapboxCoreNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C36684D256C5282002F8AFF /* MapboxCoreNavigation.framework */; };
+		7C366868256C6A4F002F8AFF /* MapboxCoreNavigation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C36684D256C5282002F8AFF /* MapboxCoreNavigation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C366869256C6A51002F8AFF /* MapboxMobileEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8CE5F3256C4BDA00D13B24 /* MapboxMobileEvents.framework */; };
+		7C36686A256C6A51002F8AFF /* MapboxMobileEvents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8CE5F3256C4BDA00D13B24 /* MapboxMobileEvents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C36686B256C6A52002F8AFF /* MapboxNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C36684E256C5282002F8AFF /* MapboxNavigation.framework */; };
+		7C36686C256C6A52002F8AFF /* MapboxNavigation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C36684E256C5282002F8AFF /* MapboxNavigation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C36686D256C6A53002F8AFF /* MapboxNavigationNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8CE5F9256C4DCA00D13B24 /* MapboxNavigationNative.framework */; };
+		7C36686E256C6A53002F8AFF /* MapboxNavigationNative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8CE5F9256C4DCA00D13B24 /* MapboxNavigationNative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C366875256C6AD6002F8AFF /* MapboxDirections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C366873256C6AC8002F8AFF /* MapboxDirections.framework */; };
+		7C366876256C6AD6002F8AFF /* MapboxDirections.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C366873256C6AC8002F8AFF /* MapboxDirections.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C366883256C6B16002F8AFF /* MapboxSpeech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C36687C256C6B0D002F8AFF /* MapboxSpeech.framework */; };
+		7C366884256C6B16002F8AFF /* MapboxSpeech.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C36687C256C6B0D002F8AFF /* MapboxSpeech.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C366885256C6B17002F8AFF /* Polyline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C36687D256C6B0E002F8AFF /* Polyline.framework */; };
+		7C366886256C6B17002F8AFF /* Polyline.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C36687D256C6B0E002F8AFF /* Polyline.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C366887256C6B18002F8AFF /* Solar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C36687B256C6B0D002F8AFF /* Solar.framework */; };
+		7C366888256C6B18002F8AFF /* Solar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C36687B256C6B0D002F8AFF /* Solar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C366889256C6B19002F8AFF /* Turf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C36687E256C6B0E002F8AFF /* Turf.framework */; };
+		7C36688A256C6B19002F8AFF /* Turf.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C36687E256C6B0E002F8AFF /* Turf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7C8CE5C0256C489400D13B24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8CE5BF256C489400D13B24 /* AppDelegate.swift */; };
 		7C8CE5C2256C489400D13B24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8CE5C1256C489400D13B24 /* SceneDelegate.swift */; };
 		7C8CE5C4256C489400D13B24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8CE5C3256C489400D13B24 /* ViewController.swift */; };
@@ -34,7 +58,39 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7C366862256C6A4C002F8AFF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7C366866256C6A4E002F8AFF /* MapboxCommon.framework in Embed Frameworks */,
+				7C366888256C6B18002F8AFF /* Solar.framework in Embed Frameworks */,
+				7C366876256C6AD6002F8AFF /* MapboxDirections.framework in Embed Frameworks */,
+				7C36688A256C6B19002F8AFF /* Turf.framework in Embed Frameworks */,
+				7C36686A256C6A51002F8AFF /* MapboxMobileEvents.framework in Embed Frameworks */,
+				7C366861256C6A4B002F8AFF /* Mapbox.framework in Embed Frameworks */,
+				7C36686C256C6A52002F8AFF /* MapboxNavigation.framework in Embed Frameworks */,
+				7C366868256C6A4F002F8AFF /* MapboxCoreNavigation.framework in Embed Frameworks */,
+				7C366886256C6B17002F8AFF /* Polyline.framework in Embed Frameworks */,
+				7C366864256C6A4D002F8AFF /* MapboxAccounts.framework in Embed Frameworks */,
+				7C36686E256C6A53002F8AFF /* MapboxNavigationNative.framework in Embed Frameworks */,
+				7C366884256C6B16002F8AFF /* MapboxSpeech.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7C36684D256C5282002F8AFF /* MapboxCoreNavigation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxCoreNavigation.framework; path = Carthage/Build/iOS/MapboxCoreNavigation.framework; sourceTree = "<group>"; };
+		7C36684E256C5282002F8AFF /* MapboxNavigation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxNavigation.framework; path = Carthage/Build/iOS/MapboxNavigation.framework; sourceTree = "<group>"; };
+		7C366873256C6AC8002F8AFF /* MapboxDirections.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxDirections.framework; path = Carthage/Build/iOS/MapboxDirections.framework; sourceTree = "<group>"; };
+		7C36687B256C6B0D002F8AFF /* Solar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Solar.framework; path = Carthage/Build/iOS/Solar.framework; sourceTree = "<group>"; };
+		7C36687C256C6B0D002F8AFF /* MapboxSpeech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxSpeech.framework; path = Carthage/Build/iOS/MapboxSpeech.framework; sourceTree = "<group>"; };
+		7C36687D256C6B0E002F8AFF /* Polyline.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Polyline.framework; path = Carthage/Build/iOS/Polyline.framework; sourceTree = "<group>"; };
+		7C36687E256C6B0E002F8AFF /* Turf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Turf.framework; path = Carthage/Build/iOS/Turf.framework; sourceTree = "<group>"; };
 		7C8CE5BC256C489400D13B24 /* route-runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "route-runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C8CE5BF256C489400D13B24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C8CE5C1256C489400D13B24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +105,11 @@
 		7C8CE5DD256C489500D13B24 /* route-runnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "route-runnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C8CE5E1256C489500D13B24 /* route_runnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = route_runnerUITests.swift; sourceTree = "<group>"; };
 		7C8CE5E3256C489500D13B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C8CE5F2256C4BDA00D13B24 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = Carthage/Build/iOS/Mapbox.framework; sourceTree = "<group>"; };
+		7C8CE5F3256C4BDA00D13B24 /* MapboxMobileEvents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxMobileEvents.framework; path = Carthage/Build/iOS/MapboxMobileEvents.framework; sourceTree = "<group>"; };
+		7C8CE5F7256C4DCA00D13B24 /* MapboxAccounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxAccounts.framework; path = Carthage/Build/iOS/MapboxAccounts.framework; sourceTree = "<group>"; };
+		7C8CE5F8256C4DCA00D13B24 /* MapboxCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxCommon.framework; path = Carthage/Build/iOS/MapboxCommon.framework; sourceTree = "<group>"; };
+		7C8CE5F9256C4DCA00D13B24 /* MapboxNavigationNative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxNavigationNative.framework; path = Carthage/Build/iOS/MapboxNavigationNative.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +117,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C366860256C6A4B002F8AFF /* Mapbox.framework in Frameworks */,
+				7C366875256C6AD6002F8AFF /* MapboxDirections.framework in Frameworks */,
+				7C366867256C6A4F002F8AFF /* MapboxCoreNavigation.framework in Frameworks */,
+				7C366889256C6B19002F8AFF /* Turf.framework in Frameworks */,
+				7C366887256C6B18002F8AFF /* Solar.framework in Frameworks */,
+				7C366883256C6B16002F8AFF /* MapboxSpeech.framework in Frameworks */,
+				7C36686B256C6A52002F8AFF /* MapboxNavigation.framework in Frameworks */,
+				7C366885256C6B17002F8AFF /* Polyline.framework in Frameworks */,
+				7C366865256C6A4E002F8AFF /* MapboxCommon.framework in Frameworks */,
+				7C366869256C6A51002F8AFF /* MapboxMobileEvents.framework in Frameworks */,
+				7C366863256C6A4D002F8AFF /* MapboxAccounts.framework in Frameworks */,
+				7C36686D256C6A53002F8AFF /* MapboxNavigationNative.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +152,18 @@
 		7C8CE5B3256C489400D13B24 = {
 			isa = PBXGroup;
 			children = (
+				7C36687C256C6B0D002F8AFF /* MapboxSpeech.framework */,
+				7C36687D256C6B0E002F8AFF /* Polyline.framework */,
+				7C36687B256C6B0D002F8AFF /* Solar.framework */,
+				7C36687E256C6B0E002F8AFF /* Turf.framework */,
+				7C366873256C6AC8002F8AFF /* MapboxDirections.framework */,
+				7C36684D256C5282002F8AFF /* MapboxCoreNavigation.framework */,
+				7C36684E256C5282002F8AFF /* MapboxNavigation.framework */,
+				7C8CE5F7256C4DCA00D13B24 /* MapboxAccounts.framework */,
+				7C8CE5F8256C4DCA00D13B24 /* MapboxCommon.framework */,
+				7C8CE5F9256C4DCA00D13B24 /* MapboxNavigationNative.framework */,
+				7C8CE5F2256C4BDA00D13B24 /* Mapbox.framework */,
+				7C8CE5F3256C4BDA00D13B24 /* MapboxMobileEvents.framework */,
 				7C8CE5BE256C489400D13B24 /* route-runner */,
 				7C8CE5D5256C489500D13B24 /* route-runnerTests */,
 				7C8CE5E0256C489500D13B24 /* route-runnerUITests */,
@@ -138,6 +223,8 @@
 				7C8CE5B8256C489400D13B24 /* Sources */,
 				7C8CE5B9256C489400D13B24 /* Frameworks */,
 				7C8CE5BA256C489400D13B24 /* Resources */,
+				7C8CE5F6256C4C3F00D13B24 /* ShellScript */,
+				7C366862256C6A4C002F8AFF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +339,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C8CE5F6256C4C3F00D13B24 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C8CE5B8256C489400D13B24 /* Sources */ = {
@@ -438,6 +545,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5VLQKGQ78S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "route-runner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +568,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5VLQKGQ78S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "route-runner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
