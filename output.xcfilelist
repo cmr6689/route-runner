@@ -1,7 +1,0 @@
-$(DERIVED_FILE_DIR)/Mapbox.framework
-$(DERIVED_FILE_DIR)/MapboxAccounts.framework
-$(DERIVED_FILE_DIR)/MapboxCommon.framework
-$(DERIVED_FILE_DIR)/MapboxNavigation.framework
-$(DERIVED_FILE_DIR)/MapboxNavigationCore.framework
-$(DERIVED_FILE_DIR)/MapboxNavigationNative.framework
-$(DERIVED_FILE_DIR)/MapboxMobileEvents.framework
