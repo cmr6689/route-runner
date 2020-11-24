@@ -49,7 +49,7 @@ class ViewController: UIViewController, MGLMapViewDelegate {
 		let origin = Waypoint(coordinate: origin, coordinateAccuracy: -1, name: "Start")
 		let point = Waypoint(coordinate: point, coordinateAccuracy: -1, name: "Point")
 		let home = Waypoint(coordinate: home, coordinateAccuracy: -1, name: "Finish")
-		let routeOptions = NavigationRouteOptions(waypoints: [origin, point, home], profileIdentifier: .automobileAvoidingTraffic)
+		let routeOptions = NavigationRouteOptions(waypoints: [origin, point, home], profileIdentifier: .walking)
 		
 		Directions.shared.calculate(routeOptions) { [weak self] (session, result) in
 			switch result {
