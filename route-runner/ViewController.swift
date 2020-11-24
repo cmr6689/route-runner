@@ -38,16 +38,18 @@ class ViewController: UIViewController, MGLMapViewDelegate {
 		let coordinate = mapView.convert(point, toCoordinateFrom: mapView)
 		
 		if let origin = mapView.userLocation?.coordinate {
-			calculateRoute(from: origin, to: coordinate)
+			let home = origin
+			calculateRoute(from: origin, to: coordinate, to: home)
 		} else {
 			print("Failed to get user location, ensure location access is turned allowed.")
 		}
 	}
 
-	func calculateRoute(from origin: CLLocationCoordinate2D, to destination: CLLocationCoordinate2D) {
+	func calculateRoute(from origin: CLLocationCoordinate2D, to point: CLLocationCoordinate2D, to home: CLLocationCoordinate2D) {
 		let origin = Waypoint(coordinate: origin, coordinateAccuracy: -1, name: "Start")
-		let destination = Waypoint(coordinate: destination, coordinateAccuracy: -1, name: "Finish")
-		let routeOptions = NavigationRouteOptions(waypoints: [origin, destination], profileIdentifier: .automobileAvoidingTraffic)
+		let point = Waypoint(coordinate: point, coordinateAccuracy: -1, name: "Point")
+		let home = Waypoint(coordinate: home, coordinateAccuracy: -1, name: "Finish")
+		let routeOptions = NavigationRouteOptions(waypoints: [origin, point, home], profileIdentifier: .automobileAvoidingTraffic)
 		
 		Directions.shared.calculate(routeOptions) { [weak self] (session, result) in
 			switch result {
